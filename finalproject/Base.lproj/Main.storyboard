@@ -347,6 +347,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FsG-X8-5rS">
+                                <rect key="frame" x="351" y="778" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <segue destination="cbW-UB-HSu" kind="show" id="kgs-cZ-h7E"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zlm-NO-g0C"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -363,7 +371,7 @@
         <segue reference="8IP-dk-3gl"/>
         <segue reference="7vX-C8-Ca5"/>
         <segue reference="o0J-Ep-4Za"/>
-        <segue reference="cKU-QY-ox7"/>
+        <segue reference="kgs-cZ-h7E"/>
         <segue reference="KCE-rI-yxg"/>
     </inferredMetricsTieBreakers>
     <resources>
