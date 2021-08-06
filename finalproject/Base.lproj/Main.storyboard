@@ -98,7 +98,7 @@
                                 <rect key="frame" x="20" y="125" width="372" height="344"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
-                                <mutableString key="text">It feels as if our generation has never known a world not on the brink of some crisis or another. We have grown up with the constant threat of the climate crisis looming over our heads, have had to live in fear of school shootings, and some of us even lived through three separate recessions. All of this seems to have inspired an appetite for social change within our generation. Social media has helped word of social issues travel further than ever before, and members of Gen-Z have been in the news recently for helping organize protests and social movements,. Politically, members of Gen-Z are more likely to call on the government for help in solving problems. They are also more likely to acknowledge systemic barriers based on race, gender, sexuality, and other factors, according to the Pew Research Center.</mutableString>
+                                <string key="text">It feels as if our generation has never known a world not on the brink of some crisis or another. We have grown up with the constant threat of the climate crisis looming over our heads, have had to live in fear of school shootings, and some of us even lived through three separate recessions. All of this seems to have inspired an appetite for social change within our generation. Social media has helped word of social issues travel further than ever before, and members of Gen-Z have been in the news recently for helping organize protests and social movements,. Politically, members of Gen-Z are more likely to call on the government for help in solving problems. They are also more likely to acknowledge systemic barriers based on race, gender, sexuality, and other factors, according to the Pew Research Center.</string>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
                                 <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -236,15 +236,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5x6-QA-N3k">
-                                <rect key="frame" x="46" y="185" width="322" height="575"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
-                                <string key="text">Generation Z encompasses anyone who was born between 1996 and the early to mid 2000s. We are the most racially diverse generation in history, and also the largest generation in the world. There are about two billion members of Gen-Z worldwide, and about 90 million members who reside in the United States. We have grown up in a world full of technology, with the Pew Research Center stating that in America, “95% of 13 to 17-year-olds have access to a smartphone, and a similar share (97%) use at least one of seven major online platforms.”</string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="23"/>
-                                <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ri-2q-ieZ">
                                 <rect key="frame" x="136" y="772" width="142" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -256,6 +247,15 @@
                                     <segue destination="cbW-UB-HSu" kind="show" id="Mwu-QD-dvl"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5x6-QA-N3k">
+                                <rect key="frame" x="46" y="150" width="322" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                <string key="text">Generation Z encompasses anyone who was born between 1996 and the early to mid 2000s. We are the most racially diverse generation in history, and also the largest generation in the world. There are about two billion members of Gen-Z worldwide, and about 90 million members who reside in the United States. We have grown up in a world full of technology, with the Pew Research Center stating that in America, “95% of 13 to 17-year-olds have access to a smartphone, and a similar share (97%) use at least one of seven major online platforms.”</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="23"/>
+                                <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CFR-ar-rai"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -340,16 +340,16 @@
                                 <color key="textColor" red="0.90980392160000001" green="0.1058823529" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To read more about Gen Z humor, click here." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsE-UX-TEk">
-                                <rect key="frame" x="15" y="671" width="385" height="55"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To read more about Gen Z humor, check out the following article:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsE-UX-TEk">
+                                <rect key="frame" x="37" y="671" width="339" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
                                 <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="http://culture.affinitymagazine.us/the-isolation-absurdity-of-gen-z-humor/" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nA6-J2-445">
-                                <rect key="frame" x="15" y="715" width="385" height="55"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Isolation and Absurdity of Gen-Z Humor (Affinity Magazine)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nA6-J2-445">
+                                <rect key="frame" x="37" y="715" width="346" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
@@ -493,10 +493,10 @@
             </objects>
             <point key="canvasLocation" x="619" y="830"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller24 Zoomer-->
         <scene sceneID="1Ch-dd-u5v">
             <objects>
-                <viewController id="VmJ-XJ-djD" sceneMemberID="viewController">
+                <viewController id="VmJ-XJ-djD" customClass="ViewController24Zoomer" customModule="finalproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="36a-lQ-qRj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -530,6 +530,26 @@
                                     <segue destination="WtY-hc-Bqg" kind="show" id="l2C-FH-GzV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F88-zC-xSI">
+                                <rect key="frame" x="39" y="309" width="337" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.72156862745098038" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W7" family="Hiragino Sans" pointSize="17"/>
+                                <state key="normal" title="Click to view the dictionary!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="dictionaryTapped:" destination="VmJ-XJ-djD" eventType="touchUpInside" id="6d7-EG-rtS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ay0-IS-dPc">
+                                <rect key="frame" x="79" y="170" width="257" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Our team has compiled a non-exhaustive dictionary of popular Gen-Z slang terms. Be sure to check it out by clicking on the button below.</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2lb-Cz-Oeu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -538,7 +558,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hs8-vp-bUe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1293" y="713"/>
+            <point key="canvasLocation" x="-1294.2028985507247" y="712.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XDj-9S-qe8">
@@ -548,8 +568,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AAVE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQn-6s-SGZ">
-                                <rect key="frame" x="49" y="44" width="317" height="139"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AAVE &amp; Internet Slang" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQn-6s-SGZ">
+                                <rect key="frame" x="64" y="64" width="287" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
                                 <nil key="textColor"/>
@@ -577,6 +597,50 @@
                                     <segue destination="WtY-hc-Bqg" kind="show" id="s0k-5u-Gbq"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WaL-AW-wtq">
+                                <rect key="frame" x="32" y="211" width="350" height="309"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">When discussing internet slang and Gen-Z slang, it is essential to first discuss African American Vernacular English (AAVE). Though AAVE is often mistaken for Gen-Z slang, it’s important to remember that AAVE is an important part of African American culture and that the two are very different. For example, anyone can use Gen-Z slang, while it is not appropriate for nonblack individuals to use AAVE. To learn more about the history of AAVE, to learn why it’s important for nonblack people to stop using AAVE, and to access guides to what is considered AAVE, please check out the resources below.
+</mutableString>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.22352941176470587" green="0.40784313725490196" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Further Reading:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IaG-PQ-Bk3">
+                                <rect key="frame" x="130" y="547" width="154" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.90980392156862744" green="0.10588235294117647" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Dear Gen Z, AAVE Is Not Internet Slang (Zenerations)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eg5-6G-Y2r">
+                                <rect key="frame" x="96" y="566" width="251" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.22352941176470587" green="0.40784313725490196" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- It Gen Z Slang or AAVE? (Axis)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fed-Kb-hcy">
+                                <rect key="frame" x="72" y="626" width="271" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.22352941176470587" green="0.40784313725490196" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- AAVE: STOP APPROPRIATING IT (Tumblinguistics on Tumblr)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icA-z7-WH2">
+                                <rect key="frame" x="40" y="651" width="334" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.22352941176470587" green="0.40784313725490196" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- aavenb.carrd.co &amp; aaveappropriation.carrd.co " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RB-Gv-UtS">
+                                <rect key="frame" x="70" y="696" width="275" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.22352941176470587" green="0.40784313725490196" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kuo-I0-QwI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -585,7 +649,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ow2-mu-kWy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1703" y="1422"/>
+            <point key="canvasLocation" x="-1704.3478260869567" y="1421.6517857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4T6-Sd-DQS">
@@ -596,7 +660,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Internet Lingo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwz-go-Ct6">
-                                <rect key="frame" x="49" y="44" width="317" height="139"/>
+                                <rect key="frame" x="49" y="13" width="317" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
                                 <nil key="textColor"/>
@@ -624,6 +688,35 @@
                                     <segue destination="WtY-hc-Bqg" kind="show" id="Jis-tY-g9i"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10000000000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3D-bv-yh5">
+                                <rect key="frame" x="27" y="13" width="367" height="871"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">- OMW: On My Way
+- ATM: At The Moment
+- HBU: How ‘Bout You?
+- NVM: Nevermind
+- RN: Right Now
+- TBH: To Be Honest
+- SMH: Shaking My Head
+- LMAO: Laughing My A** Off
+- WYD: What’re You Doing?
+- IRL: In Real Life
+- ILY(SM): I Love You (So Much)
+- ROFL: Rolling On The Floor Laughing
+- HMU: Hit Me Up
+- LMK: Let Me Know
+- “* *” around words: Asterisks around words demonstrate the performance of an action.
+- IYKYK: If You Know, You Know
+- 😭: Many members of Gen Z use this emoji interchangeably with this one: 😂.
+- 💀: This emoji is used when something is particularly hilarious, and is a reference to the slang statement “I’m dead.” See the above section for more information on the statement.
+- @ me next time: This phrase is used when someone finds something to be relatable, or when they’re feeling called out by a statement.
+- Subtweet: A subtweet is a passive aggressive tweet aimed at someone else on Twitter. The defining characteristic of a subtweet is the fact that the person who it is directly aimed towards is not mentioned.
+- Moots/Mutuals: This term is mostly used on Twitter and references those of your followers who you follow back.
+- Spam account/Finsta: A spam account (also known as a “finsta” or “finstagram” account) is an informal Instagram account which is separate from one’s main account.</mutableString>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15.5"/>
+                                <color key="textColor" red="0.22352941176470587" green="0.40784313725490196" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4k7-ha-VPL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -632,7 +725,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="avw-DW-8wA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-994" y="1485"/>
+            <point key="canvasLocation" x="-994.20289855072474" y="1484.5982142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yLA-wo-ZlL">
@@ -1261,11 +1354,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Jis-tY-g9i"/>
-        <segue reference="qji-Vt-PC9"/>
+        <segue reference="l2C-FH-GzV"/>
+        <segue reference="8IP-dk-3gl"/>
         <segue reference="7vX-C8-Ca5"/>
         <segue reference="o0J-Ep-4Za"/>
-        <segue reference="zhg-QW-fK0"/>
+        <segue reference="RDX-fa-FVD"/>
         <segue reference="KCE-rI-yxg"/>
     </inferredMetricsTieBreakers>
     <resources>
