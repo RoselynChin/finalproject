@@ -70,7 +70,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Social Activism" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBp-ib-aJc">
-                                <rect key="frame" x="22" y="20" width="370" height="139"/>
+                                <rect key="frame" x="22" y="20" width="370" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
                                 <nil key="textColor"/>
@@ -87,6 +87,38 @@
                                     <segue destination="cbW-UB-HSu" kind="show" id="Efv-na-vm3"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Social Activism within Gen-Z" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPw-Pv-1r5">
+                                <rect key="frame" x="20" y="100" width="372" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.90980392156862744" green="0.10588235294117647" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWW-M9-8I6">
+                                <rect key="frame" x="20" y="125" width="372" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                <mutableString key="text">It feels as if our generation has never known a world not on the brink of some crisis or another. We have grown up with the constant threat of the climate crisis looming over our heads, have had to live in fear of school shootings, and some of us even lived through three separate recessions. All of this seems to have inspired an appetite for social change within our generation. Social media has helped word of social issues travel further than ever before, and members of Gen-Z have been in the news recently for helping organize protests and social movements,. Politically, members of Gen-Z are more likely to call on the government for help in solving problems. They are also more likely to acknowledge systemic barriers based on race, gender, sexuality, and other factors, according to the Pew Research Center.</mutableString>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Slacktivism &amp; Performative Activism" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZw-gn-Iza">
+                                <rect key="frame" x="20" y="525" width="372" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.1058823529" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLK-6T-cbi">
+                                <rect key="frame" x="20" y="550" width="374" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                <string key="text">Though the rise of social media has primarily been helpful for social movements, it has also given rise to slacktivism (when one engages with content from social movements online, but doesn’t actually take action to further the cause) and performative activism (which occurs when one engages in activism just to gain social capital). </string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Cht-Nh-ouP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -95,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yoX-1v-CJk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1593" y="-238"/>
+            <point key="canvasLocation" x="1592.753623188406" y="-238.39285714285714"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Tqo-2D-T9U">
@@ -208,7 +240,7 @@
                                 <rect key="frame" x="46" y="185" width="322" height="575"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
-                                <mutableString key="text">Generation Z encompasses anyone who was born between 1996 and the early to mid 2000s. We are the most racially diverse generation in history, and also the largest generation in the world. There are about two billion members of Gen-Z worldwide, and about 90 million members who reside in the United States. We have grown up in a world full of technology, with the Pew Research Center stating that in America, “95% of 13 to 17-year-olds have access to a smartphone, and a similar share (97%) use at least one of seven major online platforms.”</mutableString>
+                                <string key="text">Generation Z encompasses anyone who was born between 1996 and the early to mid 2000s. We are the most racially diverse generation in history, and also the largest generation in the world. There are about two billion members of Gen-Z worldwide, and about 90 million members who reside in the United States. We have grown up in a world full of technology, with the Pew Research Center stating that in America, “95% of 13 to 17-year-olds have access to a smartphone, and a similar share (97%) use at least one of seven major online platforms.”</string>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="23"/>
                                 <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -243,7 +275,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Internet Culture" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5aF-5c-xmh">
-                                <rect key="frame" x="22" y="20" width="370" height="139"/>
+                                <rect key="frame" x="22" y="20" width="370" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
                                 <nil key="textColor"/>
@@ -260,6 +292,70 @@
                                     <segue destination="cbW-UB-HSu" kind="show" id="zhg-QW-fK0"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sD7-kt-37s">
+                                <rect key="frame" x="22" y="105" width="374" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                <string key="text">Many of us within Gen-Z have grown up online, and the culture of the internet continues to seep into the culture of our generation and vice-versa.</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsH-S0-I9Q">
+                                <rect key="frame" x="22" y="252" width="374" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                <string key="text">Trends within Gen-Z are a bit harder to pin down than the trends of other generations. This is primarily because of the internet, which has accelerated trend cycles and has given rise to the “microtrend,” (a short-lived trend within a particular section of the internet). </string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Asa-dy-yZo">
+                                <rect key="frame" x="20" y="401" width="374" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                <string key="text">The dictionary defines a meme as, “an element of a culture or system of behavior that may be considered to be passed from one individual to another by non-genetic means, especially imitation.” Often, people will edit their own memes and meme templates, creating slight variations, that spread throughout the internet, r(esulting in meme trends). We would like to note one of our favorite meme trends right now: badly edited (and occasionally dark-humoured) Facebook memes. </string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Internet &amp; Accelerating Trend Cycles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hm3-NV-cV7">
+                                <rect key="frame" x="22" y="227" width="370" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.1058823529" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meme Trends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhV-QL-4fl">
+                                <rect key="frame" x="22" y="376" width="370" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.1058823529" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gen-Z Humor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8Q-X0-TEY">
+                                <rect key="frame" x="20" y="646" width="372" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.90980392160000001" green="0.1058823529" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To read more about Gen Z humor, click here." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsE-UX-TEk">
+                                <rect key="frame" x="15" y="671" width="385" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="http://culture.affinitymagazine.us/the-isolation-absurdity-of-gen-z-humor/" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nA6-J2-445">
+                                <rect key="frame" x="15" y="715" width="385" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.72156862745098038" blue="0.57647058823529407" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nOB-OZ-IRG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -268,7 +364,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="leu-0a-KdD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2294" y="238"/>
+            <point key="canvasLocation" x="2292.753623188406" y="237.72321428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="c63-tR-kOX">
@@ -285,31 +381,31 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aXo-jC-Yio">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="de478bbedeb1e6ff187d978efdadb2ee" translatesAutoresizingMaskIntoConstraints="NO" id="aXo-jC-Yio">
                                 <rect key="frame" x="35" y="123" width="154" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="od3-AQ-cwO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-05 at 11.52.43 PM" translatesAutoresizingMaskIntoConstraints="NO" id="od3-AQ-cwO">
                                 <rect key="frame" x="226" y="123" width="154" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N0C-p2-PBX">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-05 at 11.51.59 PM" translatesAutoresizingMaskIntoConstraints="NO" id="N0C-p2-PBX">
                                 <rect key="frame" x="35" y="297" width="154" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iaE-6s-QE1">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cbf0ec67737fb27e124f82c0b3fcf15e" translatesAutoresizingMaskIntoConstraints="NO" id="iaE-6s-QE1">
                                 <rect key="frame" x="226" y="297" width="154" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VQc-RG-Hjl">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-05 at 11.51.13 PM" translatesAutoresizingMaskIntoConstraints="NO" id="VQc-RG-Hjl">
                                 <rect key="frame" x="35" y="481" width="154" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1mS-WK-FVa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-05 at 11.49.09 PM" translatesAutoresizingMaskIntoConstraints="NO" id="1mS-WK-FVa">
                                 <rect key="frame" x="226" y="481" width="154" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aqY-kF-p8m">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eboygirl" translatesAutoresizingMaskIntoConstraints="NO" id="aqY-kF-p8m">
                                 <rect key="frame" x="130" y="640" width="154" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -547,7 +643,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dark Academia" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iO3-We-fmD">
-                                <rect key="frame" x="79" y="72" width="257" height="47"/>
+                                <rect key="frame" x="79" y="20" width="257" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
                                 <nil key="textColor"/>
@@ -575,6 +671,38 @@
                                     <segue destination="3ro-nT-gio" kind="show" id="cNf-7P-scd"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="E1VyOo5X0AEZm7w" translatesAutoresizingMaskIntoConstraints="NO" id="Ris-ZW-ZHS">
+                                <rect key="frame" x="29" y="75" width="142" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ekndkj-XYAYghXe" translatesAutoresizingMaskIntoConstraints="NO" id="GnP-7m-ybT">
+                                <rect key="frame" x="29" y="279" width="142" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="E1VyOxaWUAcBcR_" translatesAutoresizingMaskIntoConstraints="NO" id="IC9-Rd-IOR">
+                                <rect key="frame" x="29" y="403" width="142" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EkndkusXYAEhp67" translatesAutoresizingMaskIntoConstraints="NO" id="iXx-RK-zPu">
+                                <rect key="frame" x="208" y="75" width="178" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="e2818bb380889563ce9adb7dcc98bf51" translatesAutoresizingMaskIntoConstraints="NO" id="mgB-5U-vvI">
+                                <rect key="frame" x="208" y="200" width="178" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="885a1a4fa6b93dca6f2b531daef81566" translatesAutoresizingMaskIntoConstraints="NO" id="0on-qW-i4p">
+                                <rect key="frame" x="208" y="364" width="178" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26W-NG-Akh">
+                                <rect key="frame" x="29" y="569" width="357" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Dark academia is one of the many “academia” aesthetics that romanticizes the pursuit of knowledge. Visual motifs heavily romanticize universities, boarding schools, and historical sites (particularly those from European civilizations). muted earth tones, books resting upon mahogany shelves, university reading rooms, and ancient manuscripts.</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.72156862745098038" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fPm-Ri-Jsw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -594,7 +722,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Royalcore" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7oh-dG-1RD">
-                                <rect key="frame" x="49" y="20" width="317" height="139"/>
+                                <rect key="frame" x="49" y="20" width="317" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
                                 <nil key="textColor"/>
@@ -622,6 +750,38 @@
                                     <segue destination="3ro-nT-gio" kind="show" id="fhW-FI-v1r"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="75785c0857412cb6e79fc3cf44f9ea77" translatesAutoresizingMaskIntoConstraints="NO" id="KuA-9p-RfS">
+                                <rect key="frame" x="25" y="72" width="142" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a06f68039187054d4b5a6a6905c481dc" translatesAutoresizingMaskIntoConstraints="NO" id="G15-H1-1au">
+                                <rect key="frame" x="25" y="276" width="142" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b5d2656f04d6f321bdd3c147484d1ef9" translatesAutoresizingMaskIntoConstraints="NO" id="kh6-Dq-EMQ">
+                                <rect key="frame" x="25" y="400" width="142" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EkndkusXYAEhp67" translatesAutoresizingMaskIntoConstraints="NO" id="9eM-ne-ruy">
+                                <rect key="frame" x="212" y="72" width="178" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="01b2700f893faf4f9c662576b74bf34c" translatesAutoresizingMaskIntoConstraints="NO" id="C4V-Hi-8y2">
+                                <rect key="frame" x="212" y="197" width="178" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7599829dfa46bd965bee0807a2a0a3d0" translatesAutoresizingMaskIntoConstraints="NO" id="CaB-nj-owq">
+                                <rect key="frame" x="212" y="361" width="178" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91v-5v-bTY">
+                                <rect key="frame" x="29" y="569" width="357" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The aesthetic emphasizes importance on elegance, morality, and skill. In addition, there are different types of media associated with royalcore. Visually, royalcore conjures images of sprawling stone castles, knights in shining armor, opulent status symbols, royal regalia, and flowing velvet dresses.</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.72156862749999995" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZAP-iK-FF0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -640,13 +800,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soft Girl" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IqO-7K-yYq">
-                                <rect key="frame" x="49" y="44" width="317" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tk-qW-iik">
                                 <rect key="frame" x="29" y="761" width="142" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -669,6 +822,45 @@
                                     <segue destination="3ro-nT-gio" kind="show" id="PDH-zo-xOa"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soft Girl" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IqO-7K-yYq">
+                                <rect key="frame" x="127" y="20" width="160" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="34112f30d236dccbda77ba44d6c4440e" translatesAutoresizingMaskIntoConstraints="NO" id="iPz-d7-xzU">
+                                <rect key="frame" x="29" y="77" width="142" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-05 at 10.51.33 PM" translatesAutoresizingMaskIntoConstraints="NO" id="C9U-iM-8w5">
+                                <rect key="frame" x="38" y="281" width="128" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c682c967218cc203cd628b8e8da1af66" translatesAutoresizingMaskIntoConstraints="NO" id="kNM-8L-y9w">
+                                <rect key="frame" x="29" y="405" width="142" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-05 at 10.49.40 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Mwv-yJ-B3U">
+                                <rect key="frame" x="208" y="77" width="178" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="46eaef964ac6cfa079a197884aedf778" translatesAutoresizingMaskIntoConstraints="NO" id="7T9-6I-svj">
+                                <rect key="frame" x="208" y="202" width="178" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="f2d3124f6ef26eb881e3c1b3edd1d0f4" translatesAutoresizingMaskIntoConstraints="NO" id="eJO-Ks-qTK">
+                                <rect key="frame" x="208" y="362" width="178" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyZ-6h-9WI">
+                                <rect key="frame" x="29" y="569" width="357" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The soft girl aesthetic (also called the “softie” aesthetic), was particularly popular during 2019. This aesthetic focuses on achieving a soft, feminine, deliberately cutesy look. Visual motifs include clouds, hearts, teddy bears, pastels, and flowers. Other items include plaid miniskirts, hair clips, crop tops, and minimalist gold jewelry. </string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.72156862749999995" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dQv-Qv-qjt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -687,13 +879,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VSCO Girl" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5d-Sz-2yt">
-                                <rect key="frame" x="49" y="44" width="317" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OaH-eb-68i">
                                 <rect key="frame" x="29" y="761" width="142" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -716,6 +901,45 @@
                                     <segue destination="3ro-nT-gio" kind="show" id="SpU-Hu-7Au"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VSCO Girl" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5d-Sz-2yt">
+                                <rect key="frame" x="109" y="20" width="196" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="58268202bd0186672e4c70e00bd7bf05" translatesAutoresizingMaskIntoConstraints="NO" id="LZc-7i-b9H">
+                                <rect key="frame" x="25" y="79" width="142" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-05 at 11.39.22 PM" translatesAutoresizingMaskIntoConstraints="NO" id="cpC-cd-vUy">
+                                <rect key="frame" x="25" y="283" width="142" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-05 at 11.40.37 PM" translatesAutoresizingMaskIntoConstraints="NO" id="keh-t0-6cI">
+                                <rect key="frame" x="25" y="407" width="142" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-05 at 11.39.47 PM" translatesAutoresizingMaskIntoConstraints="NO" id="899-tw-yfr">
+                                <rect key="frame" x="212" y="79" width="178" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2e664ccb2f3600740854bb7ebe22eb2c" translatesAutoresizingMaskIntoConstraints="NO" id="hu3-a5-i0Z">
+                                <rect key="frame" x="212" y="204" width="178" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2a000dc92eef2bdb44e463a5d03dd852" translatesAutoresizingMaskIntoConstraints="NO" id="8yA-pc-XYF">
+                                <rect key="frame" x="212" y="368" width="178" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tP-VB-aZh">
+                                <rect key="frame" x="29" y="547" width="357" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Its rise was influenced by VSCO and TikTok. They are associated with some slang (like “sksksks”), social movements (“save the turtles”), and certain fashion. VSCO Girl staples include Vans, puka shell chokers, oversized tees, shorts, mom jeans, Brandy Melville clothing, scrunchies, sticker-covered Hydro Flask bottles, metal straws, Carmex lip balm, Glossier makeup, and Fjallraven Kanken backpacks.</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.72156862749999995" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CPg-vL-Cbs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -734,13 +958,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E-Boy/E-Girl" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVd-Rj-U6f">
-                                <rect key="frame" x="49" y="44" width="317" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qoi-RB-vd3">
                                 <rect key="frame" x="29" y="761" width="142" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -763,6 +980,45 @@
                                     <segue destination="3ro-nT-gio" kind="show" id="Kf1-G0-Qx2"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E-Boy/E-Girl" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVd-Rj-U6f">
+                                <rect key="frame" x="93" y="20" width="229" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="87fcc9573ca2117b00e8b474e324940c" translatesAutoresizingMaskIntoConstraints="NO" id="IKe-B1-NCB">
+                                <rect key="frame" x="25" y="73" width="142" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="52f502bd85396daf0a2502c90644f034" translatesAutoresizingMaskIntoConstraints="NO" id="frT-bI-K6j">
+                                <rect key="frame" x="25" y="401" width="142" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-05 at 11.11.56 PM" translatesAutoresizingMaskIntoConstraints="NO" id="K1h-S1-qY4">
+                                <rect key="frame" x="212" y="73" width="178" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6572143b025abcfb21f7496e8da69bb3" translatesAutoresizingMaskIntoConstraints="NO" id="T7w-Oq-6zg">
+                                <rect key="frame" x="212" y="198" width="178" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3389186da58e74142e158829681c0404" translatesAutoresizingMaskIntoConstraints="NO" id="OkQ-iV-9sv">
+                                <rect key="frame" x="212" y="362" width="178" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L76-9C-Gzf">
+                                <rect key="frame" x="29" y="541" width="357" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">This is a modern grunge aesthetic with notes of anime, Japanese styles, and emo fashion. This fashion trends include miniskirts, striped shirts, fishnets, oversized tees (most often in white, black, or gray), chokers (often with metal detailing), chains, and silver jewelry. Makeup and hair trends consist of dyed hair strips, heavy eyeliner, and lots of blush. Activities include gaming, music, and watching anime.</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.72156862749999995" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2c5c59f53ec2e854d674ee57a25e59bc" translatesAutoresizingMaskIntoConstraints="NO" id="X49-aZ-zGp">
+                                <rect key="frame" x="25" y="267" width="146" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CQ7-Wd-gVG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -771,7 +1027,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tk4-Fg-c0f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2002" y="1843"/>
+            <point key="canvasLocation" x="2001.449275362319" y="1842.8571428571427"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="17r-Bd-8ZX">
@@ -782,7 +1038,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cottagecore" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqE-vu-MIH">
-                                <rect key="frame" x="49" y="44" width="317" height="139"/>
+                                <rect key="frame" x="100" y="20" width="215" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
                                 <nil key="textColor"/>
@@ -810,6 +1066,38 @@
                                     <segue destination="3ro-nT-gio" kind="show" id="qji-Vt-PC9"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7ab87ba7a26c79e7df3ab045799c85c2" translatesAutoresizingMaskIntoConstraints="NO" id="RIh-rJ-FGl">
+                                <rect key="frame" x="29" y="69" width="142" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-05 at 10.11.07 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Ubo-9z-HiA">
+                                <rect key="frame" x="38" y="273" width="128" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8e5c36680f97a474198ceda53214b602" translatesAutoresizingMaskIntoConstraints="NO" id="Ft3-At-vuz">
+                                <rect key="frame" x="29" y="397" width="142" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1c83359cd129cc9b3f58abc8be11e332" translatesAutoresizingMaskIntoConstraints="NO" id="TCD-HM-LTg">
+                                <rect key="frame" x="208" y="69" width="178" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="90fef5c498024900bca6f11d5cb067b3" translatesAutoresizingMaskIntoConstraints="NO" id="Pjx-fR-Dff">
+                                <rect key="frame" x="208" y="194" width="178" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ef6c5571d52135fc2bfc534e250aab59" translatesAutoresizingMaskIntoConstraints="NO" id="AGK-oK-ZDI">
+                                <rect key="frame" x="208" y="358" width="178" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ce9-Qr-Up4">
+                                <rect key="frame" x="29" y="545" width="357" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The cottagecore aesthetic features a romanticized version of pastoral life. Motifs associated usually involve nature. The most common themes are strawberries, mushrooms, and flowers. Activities include picnicking, food foraging, and walks in the woods. Fashions include flowing dresses, gingham, lacey garments, overalls, and earthy tones.</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.72156862749999995" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Y0b-HW-cSk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -818,7 +1106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rwt-nc-G9D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1375" y="1201"/>
+            <point key="canvasLocation" x="1373.913043478261" y="1200.6696428571429"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QlN-pJ-OJs">
@@ -828,13 +1116,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fairycore" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCN-iI-3rP">
-                                <rect key="frame" x="49" y="44" width="317" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JcH-PJ-u3a">
                                 <rect key="frame" x="29" y="761" width="142" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -857,6 +1138,45 @@
                                     <segue destination="3ro-nT-gio" kind="show" id="eSE-KL-Knq"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fairycore" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCN-iI-3rP">
+                                <rect key="frame" x="124" y="20" width="167" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9a07bf696ac9dd7346990a6c5bd7a0ca" translatesAutoresizingMaskIntoConstraints="NO" id="WzH-up-yTt">
+                                <rect key="frame" x="25" y="80" width="142" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5445789f23e61bef4fc8f9a364ad4020" translatesAutoresizingMaskIntoConstraints="NO" id="MO3-gn-0Lz">
+                                <rect key="frame" x="25" y="284" width="142" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b184bcca6a287355edbffed5fb48d6a6" translatesAutoresizingMaskIntoConstraints="NO" id="zcE-jw-CI9">
+                                <rect key="frame" x="25" y="408" width="142" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="144c3deaa0022fd0281b7bcff5b6791d" translatesAutoresizingMaskIntoConstraints="NO" id="7pc-0y-YgF">
+                                <rect key="frame" x="225" y="80" width="142" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ed9b0d789059a9ccd3c17fb12f832478" translatesAutoresizingMaskIntoConstraints="NO" id="BBa-c4-QNi">
+                                <rect key="frame" x="215" y="392" width="175" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBr-2I-WK1">
+                                <rect key="frame" x="29" y="548" width="357" height="205"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Fairycore consists of small cabins in the forest, fairies and dragonflies, grass, brooks, woodland creatures, and picnics. Berrypicking, letter writing, making flower crowns, and gardening are romanticized. Clothing emphasizes harmony with the natural world. Fashion associated include: long dresses, subtle shimmery makeup, wire rimmed glasses, long and loose hair (often adorned with flowers).</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.72156862749999995" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="990501fefe17d7388579918530aec854" translatesAutoresizingMaskIntoConstraints="NO" id="ic6-dq-ieV">
+                                <rect key="frame" x="225" y="218" width="155" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NUZ-yE-I9H"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -865,7 +1185,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kYS-sU-IVY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2103" y="1178"/>
+            <point key="canvasLocation" x="2102.898550724638" y="1177.2321428571429"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rZI-xZ-kUA">
@@ -941,15 +1261,62 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Czd-E9-D2F"/>
         <segue reference="Jis-tY-g9i"/>
-        <segue reference="Kf1-G0-Qx2"/>
+        <segue reference="qji-Vt-PC9"/>
         <segue reference="7vX-C8-Ca5"/>
         <segue reference="o0J-Ep-4Za"/>
-        <segue reference="bJh-ZY-tRN"/>
+        <segue reference="zhg-QW-fK0"/>
         <segue reference="KCE-rI-yxg"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="01b2700f893faf4f9c662576b74bf34c" width="564" height="564"/>
+        <image name="144c3deaa0022fd0281b7bcff5b6791d" width="564" height="545"/>
+        <image name="1c83359cd129cc9b3f58abc8be11e332" width="474" height="341"/>
+        <image name="2a000dc92eef2bdb44e463a5d03dd852" width="405" height="540"/>
+        <image name="2c5c59f53ec2e854d674ee57a25e59bc" width="564" height="550"/>
+        <image name="2e664ccb2f3600740854bb7ebe22eb2c" width="480" height="480"/>
+        <image name="3389186da58e74142e158829681c0404" width="564" height="560"/>
+        <image name="34112f30d236dccbda77ba44d6c4440e" width="564" height="846"/>
+        <image name="46eaef964ac6cfa079a197884aedf778" width="564" height="564"/>
+        <image name="52f502bd85396daf0a2502c90644f034" width="563" height="612"/>
+        <image name="5445789f23e61bef4fc8f9a364ad4020" width="563" height="560"/>
+        <image name="58268202bd0186672e4c70e00bd7bf05" width="474" height="632"/>
+        <image name="6572143b025abcfb21f7496e8da69bb3" width="564" height="564"/>
+        <image name="75785c0857412cb6e79fc3cf44f9ea77" width="478" height="726"/>
+        <image name="7599829dfa46bd965bee0807a2a0a3d0" width="499" height="534"/>
+        <image name="7ab87ba7a26c79e7df3ab045799c85c2" width="563" height="844"/>
+        <image name="87fcc9573ca2117b00e8b474e324940c" width="563" height="789"/>
+        <image name="885a1a4fa6b93dca6f2b531daef81566" width="563" height="564"/>
+        <image name="8e5c36680f97a474198ceda53214b602" width="564" height="655"/>
+        <image name="90fef5c498024900bca6f11d5cb067b3" width="535" height="535"/>
+        <image name="990501fefe17d7388579918530aec854" width="564" height="691"/>
+        <image name="9a07bf696ac9dd7346990a6c5bd7a0ca" width="510" height="680"/>
+        <image name="E1VyOo5X0AEZm7w" width="736" height="981"/>
+        <image name="E1VyOxaWUAcBcR_" width="736" height="736"/>
+        <image name="Ekndkj-XYAYghXe" width="1000" height="563"/>
+        <image name="EkndkusXYAEhp67" width="1280" height="720"/>
+        <image name="Screen Shot 2021-08-05 at 10.11.07 PM" width="1134" height="772"/>
+        <image name="Screen Shot 2021-08-05 at 10.49.40 PM" width="944" height="684"/>
+        <image name="Screen Shot 2021-08-05 at 10.51.33 PM" width="1122" height="747"/>
+        <image name="Screen Shot 2021-08-05 at 11.11.56 PM" width="1126" height="718"/>
+        <image name="Screen Shot 2021-08-05 at 11.39.22 PM" width="1138" height="842"/>
+        <image name="Screen Shot 2021-08-05 at 11.39.47 PM" width="818" height="512"/>
+        <image name="Screen Shot 2021-08-05 at 11.40.37 PM" width="1102" height="1190"/>
+        <image name="Screen Shot 2021-08-05 at 11.49.09 PM" width="940" height="604"/>
+        <image name="Screen Shot 2021-08-05 at 11.51.13 PM" width="630" height="534"/>
+        <image name="Screen Shot 2021-08-05 at 11.51.59 PM" width="928" height="612"/>
+        <image name="Screen Shot 2021-08-05 at 11.52.43 PM" width="844" height="576"/>
+        <image name="a06f68039187054d4b5a6a6905c481dc" width="300" height="250"/>
+        <image name="b184bcca6a287355edbffed5fb48d6a6" width="564" height="564"/>
+        <image name="b5d2656f04d6f321bdd3c147484d1ef9" width="564" height="564"/>
+        <image name="c682c967218cc203cd628b8e8da1af66" width="474" height="474"/>
+        <image name="cbf0ec67737fb27e124f82c0b3fcf15e" width="564" height="451"/>
+        <image name="de478bbedeb1e6ff187d978efdadb2ee" width="564" height="363"/>
+        <image name="e2818bb380889563ce9adb7dcc98bf51" width="564" height="564"/>
+        <image name="eboygirl" width="1130" height="700"/>
+        <image name="ed9b0d789059a9ccd3c17fb12f832478" width="563" height="564"/>
+        <image name="ef6c5571d52135fc2bfc534e250aab59" width="403" height="534"/>
+        <image name="f2d3124f6ef26eb881e3c1b3edd1d0f4" width="564" height="752"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
