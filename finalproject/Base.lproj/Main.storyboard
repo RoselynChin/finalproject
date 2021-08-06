@@ -95,7 +95,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWW-M9-8I6">
-                                <rect key="frame" x="20" y="125" width="372" height="344"/>
+                                <rect key="frame" x="31" y="125" width="350" height="369"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
                                 <string key="text">It feels as if our generation has never known a world not on the brink of some crisis or another. We have grown up with the constant threat of the climate crisis looming over our heads, have had to live in fear of school shootings, and some of us even lived through three separate recessions. All of this seems to have inspired an appetite for social change within our generation. Social media has helped word of social issues travel further than ever before, and members of Gen-Z have been in the news recently for helping organize protests and social movements,. Politically, members of Gen-Z are more likely to call on the government for help in solving problems. They are also more likely to acknowledge systemic barriers based on race, gender, sexuality, and other factors, according to the Pew Research Center.</string>
@@ -111,11 +111,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLK-6T-cbi">
-                                <rect key="frame" x="20" y="550" width="374" height="164"/>
+                                <rect key="frame" x="29" y="550" width="355" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
                                 <string key="text">Though the rise of social media has primarily been helpful for social movements, it has also given rise to slacktivism (when one engages with content from social movements online, but doesn’t actually take action to further the cause) and performative activism (which occurs when one engages in activism just to gain social capital). </string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="19"/>
                                 <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -247,12 +247,12 @@
                                     <segue destination="cbW-UB-HSu" kind="show" id="Mwu-QD-dvl"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5x6-QA-N3k">
-                                <rect key="frame" x="46" y="150" width="322" height="575"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5x6-QA-N3k">
+                                <rect key="frame" x="46" y="146" width="346" height="614"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
-                                <string key="text">Generation Z encompasses anyone who was born between 1996 and the early to mid 2000s. We are the most racially diverse generation in history, and also the largest generation in the world. There are about two billion members of Gen-Z worldwide, and about 90 million members who reside in the United States. We have grown up in a world full of technology, with the Pew Research Center stating that in America, “95% of 13 to 17-year-olds have access to a smartphone, and a similar share (97%) use at least one of seven major online platforms.”</string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="23"/>
+                                <mutableString key="text">Generation Z encompasses anyone who was born between 1996 and the early to mid 2000s. We are the most racially diverse generation in history, and also the largest generation in the world. There are about two billion members of Gen-Z worldwide, and about 90 million members who reside in the United States. We have grown up in a world full of technology, with the Pew Research Center stating that in America, “95% of 13 to 17-year-olds have access to a smartphone, and a similar share (97%) use at least one of seven major online platforms.”</mutableString>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="24"/>
                                 <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -264,7 +264,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Le-5l-yjL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1542.0289855072465" y="516.96428571428567"/>
+            <point key="canvasLocation" x="1539" y="487"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OXF-Vn-lq2">
@@ -293,7 +293,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sD7-kt-37s">
-                                <rect key="frame" x="22" y="105" width="374" height="98"/>
+                                <rect key="frame" x="32" y="105" width="354" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
                                 <string key="text">Many of us within Gen-Z have grown up online, and the culture of the internet continues to seep into the culture of our generation and vice-versa.</string>
@@ -302,32 +302,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsH-S0-I9Q">
-                                <rect key="frame" x="22" y="252" width="374" height="98"/>
+                                <rect key="frame" x="22" y="242" width="372" height="137"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
                                 <string key="text">Trends within Gen-Z are a bit harder to pin down than the trends of other generations. This is primarily because of the internet, which has accelerated trend cycles and has given rise to the “microtrend,” (a short-lived trend within a particular section of the internet). </string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
-                                <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Asa-dy-yZo">
-                                <rect key="frame" x="20" y="401" width="374" height="222"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
-                                <string key="text">The dictionary defines a meme as, “an element of a culture or system of behavior that may be considered to be passed from one individual to another by non-genetic means, especially imitation.” Often, people will edit their own memes and meme templates, creating slight variations, that spread throughout the internet, r(esulting in meme trends). We would like to note one of our favorite meme trends right now: badly edited (and occasionally dark-humoured) Facebook memes. </string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
                                 <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Internet &amp; Accelerating Trend Cycles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hm3-NV-cV7">
-                                <rect key="frame" x="22" y="227" width="370" height="17"/>
+                                <rect key="frame" x="22" y="218" width="370" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
                                 <color key="textColor" red="0.90980392160000001" green="0.1058823529" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meme Trends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhV-QL-4fl">
-                                <rect key="frame" x="22" y="376" width="370" height="17"/>
+                                <rect key="frame" x="22" y="391" width="370" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
                                 <color key="textColor" red="0.90980392160000001" green="0.1058823529" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -349,11 +340,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Isolation and Absurdity of Gen-Z Humor (Affinity Magazine)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nA6-J2-445">
-                                <rect key="frame" x="37" y="715" width="346" height="55"/>
+                                <rect key="frame" x="59" y="715" width="294" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.72156862745098038" blue="0.57647058823529407" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Asa-dy-yZo">
+                                <rect key="frame" x="26" y="412" width="363" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                <string key="text">The dictionary defines a meme as, “an element of a culture or system of behavior that may be considered to be passed from one individual to another by non-genetic means, especially imitation.” Often, people will edit their own memes and meme templates, creating slight variations, that spread throughout the internet, r(esulting in meme trends). We would like to note one of our favorite meme trends right now: badly edited (and occasionally dark-humoured) Facebook memes. </string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.22352941179999999" green="0.40784313729999999" blue="0.79607843140000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -491,7 +491,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XnL-1U-vwh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="619" y="830"/>
+            <point key="canvasLocation" x="406" y="777"/>
         </scene>
         <!--View Controller24 Zoomer-->
         <scene sceneID="1Ch-dd-u5v">
@@ -546,7 +546,7 @@
                                 <rect key="frame" x="79" y="170" width="257" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Our team has compiled a non-exhaustive dictionary of popular Gen-Z slang terms. Be sure to check it out by clicking on the button below.</string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -598,11 +598,11 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WaL-AW-wtq">
-                                <rect key="frame" x="32" y="211" width="350" height="309"/>
+                                <rect key="frame" x="32" y="211" width="342" height="328"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">When discussing internet slang and Gen-Z slang, it is essential to first discuss African American Vernacular English (AAVE). Though AAVE is often mistaken for Gen-Z slang, it’s important to remember that AAVE is an important part of African American culture and that the two are very different. For example, anyone can use Gen-Z slang, while it is not appropriate for nonblack individuals to use AAVE. To learn more about the history of AAVE, to learn why it’s important for nonblack people to stop using AAVE, and to access guides to what is considered AAVE, please check out the resources below.
-</mutableString>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <string key="text">When discussing internet slang and Gen-Z slang, it is essential to first discuss African American Vernacular English (AAVE). Though AAVE is often mistaken for Gen-Z slang, it’s important to remember that AAVE is an important part of African American culture and that the two are very different. For example, anyone can use Gen-Z slang, while it is not appropriate for nonblack individuals to use AAVE. To learn more about the history of AAVE, to learn why it’s important for nonblack people to stop using AAVE, and to access guides to what is considered AAVE, please check out the resources below.
+</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
                                 <color key="textColor" red="0.22352941176470587" green="0.40784313725490196" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -689,7 +689,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10000000000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3D-bv-yh5">
-                                <rect key="frame" x="27" y="13" width="367" height="871"/>
+                                <rect key="frame" x="37" y="-2" width="339" height="871"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <mutableString key="text">- OMW: On My Way
 - ATM: At The Moment
@@ -788,11 +788,11 @@
                                 <rect key="frame" x="208" y="364" width="178" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26W-NG-Akh">
-                                <rect key="frame" x="29" y="569" width="357" height="165"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26W-NG-Akh">
+                                <rect key="frame" x="46" y="546" width="304" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Dark academia is one of the many “academia” aesthetics that romanticizes the pursuit of knowledge. Visual motifs heavily romanticize universities, boarding schools, and historical sites (particularly those from European civilizations). muted earth tones, books resting upon mahogany shelves, university reading rooms, and ancient manuscripts.</string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.72156862745098038" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -868,10 +868,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91v-5v-bTY">
-                                <rect key="frame" x="29" y="569" width="357" height="165"/>
+                                <rect key="frame" x="39" y="562" width="337" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The aesthetic emphasizes importance on elegance, morality, and skill. In addition, there are different types of media associated with royalcore. Visually, royalcore conjures images of sprawling stone castles, knights in shining armor, opulent status symbols, royal regalia, and flowing velvet dresses.</string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="19"/>
                                 <color key="textColor" red="0.0" green="0.72156862749999995" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -950,7 +950,7 @@
                                 <rect key="frame" x="29" y="569" width="357" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The soft girl aesthetic (also called the “softie” aesthetic), was particularly popular during 2019. This aesthetic focuses on achieving a soft, feminine, deliberately cutesy look. Visual motifs include clouds, hearts, teddy bears, pastels, and flowers. Other items include plaid miniskirts, hair clips, crop tops, and minimalist gold jewelry. </string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.72156862749999995" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1029,7 +1029,7 @@
                                 <rect key="frame" x="29" y="547" width="357" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Its rise was influenced by VSCO and TikTok. They are associated with some slang (like “sksksks”), social movements (“save the turtles”), and certain fashion. VSCO Girl staples include Vans, puka shell chokers, oversized tees, shorts, mom jeans, Brandy Melville clothing, scrunchies, sticker-covered Hydro Flask bottles, metal straws, Carmex lip balm, Glossier makeup, and Fjallraven Kanken backpacks.</string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.72156862749999995" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1104,7 +1104,7 @@
                                 <rect key="frame" x="29" y="541" width="357" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">This is a modern grunge aesthetic with notes of anime, Japanese styles, and emo fashion. This fashion trends include miniskirts, striped shirts, fishnets, oversized tees (most often in white, black, or gray), chokers (often with metal detailing), chains, and silver jewelry. Makeup and hair trends consist of dyed hair strips, heavy eyeliner, and lots of blush. Activities include gaming, music, and watching anime.</string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.72156862749999995" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1184,10 +1184,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ce9-Qr-Up4">
-                                <rect key="frame" x="29" y="545" width="357" height="189"/>
+                                <rect key="frame" x="29" y="545" width="357" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The cottagecore aesthetic features a romanticized version of pastoral life. Motifs associated usually involve nature. The most common themes are strawberries, mushrooms, and flowers. Activities include picnicking, food foraging, and walks in the woods. Fashions include flowing dresses, gingham, lacey garments, overalls, and earthy tones.</string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="19"/>
                                 <color key="textColor" red="0.0" green="0.72156862749999995" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1199,7 +1199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rwt-nc-G9D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1373.913043478261" y="1200.6696428571429"/>
+            <point key="canvasLocation" x="1292.753623188406" y="1176.5625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QlN-pJ-OJs">
@@ -1262,7 +1262,7 @@
                                 <rect key="frame" x="29" y="548" width="357" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Fairycore consists of small cabins in the forest, fairies and dragonflies, grass, brooks, woodland creatures, and picnics. Berrypicking, letter writing, making flower crowns, and gardening are romanticized. Clothing emphasizes harmony with the natural world. Fashion associated include: long dresses, subtle shimmery makeup, wire rimmed glasses, long and loose hair (often adorned with flowers).</string>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.72156862749999995" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1308,7 +1308,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="LdU-zb-Jqr">
-                                <rect key="frame" x="54" y="224" width="307" height="117"/>
+                                <rect key="frame" x="54" y="219" width="307" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90980392160000001" green="0.1058823529" blue="0.13725490200000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="30"/>
@@ -1350,15 +1350,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KuC-Ky-RSP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-539.13043478260875" y="829.6875"/>
+            <point key="canvasLocation" x="-472" y="777"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="59f-aw-9BS"/>
         <segue reference="l2C-FH-GzV"/>
-        <segue reference="8IP-dk-3gl"/>
+        <segue reference="PDH-zo-xOa"/>
         <segue reference="7vX-C8-Ca5"/>
         <segue reference="o0J-Ep-4Za"/>
-        <segue reference="RDX-fa-FVD"/>
+        <segue reference="zhg-QW-fK0"/>
         <segue reference="KCE-rI-yxg"/>
     </inferredMetricsTieBreakers>
     <resources>
